@@ -179,8 +179,8 @@ const TicTacToe = () => {
     return (
         <div className="w-full flex flex-col h-screen bg-white gap-5 justify-center items-center p-4">
             <div className="flex flex-col gap-3 items-center">
-                <h2 className="text-xl font-bold">Tic Tac Toe</h2>
-                <p className="text-lg">
+                <h2 className="text-xl font-bold text-black">Tic Tac Toe</h2>
+                <p className="text-lg text-black">
                     User Wins: {userWins} | Computer Wins: {computerWins}
                 </p>
                 {winner && (
@@ -196,7 +196,7 @@ const TicTacToe = () => {
                         New Round (choose first)
                     </button>
                     <button
-                        className="px-4 py-2 bg-gray-200 rounded-lg"
+                        className="px-4 py-2 bg-black text-white rounded-lg"
                         onClick={() => {
                             setUserMoves([]);
                             setComputerMoves([]);
@@ -214,7 +214,7 @@ const TicTacToe = () => {
             {/* First Move Selection */}
             {firstMove === null ? (
                 <div className="flex flex-col gap-3 items-center">
-                    <p className="text-lg font-medium">Who plays first?</p>
+                    <p className="text-lg font-medium text-black">Who plays first?</p>
                     <div className="flex gap-3">
                         <button
                             className="px-5 py-2 bg-black text-white rounded-lg"
