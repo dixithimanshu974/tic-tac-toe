@@ -2,8 +2,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/tic-tac-toe',
-  assetPrefix: '/tic-tac-toe/',
+  basePath: '/tic-tac-toe/tic-tac-toe',
+  assetPrefix: '/tic-tac-toe/tic-tac-toe/',
 };
 
 module.exports = nextConfig;

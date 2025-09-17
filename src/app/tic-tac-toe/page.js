@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 
-const TikTakToe = () => {
+const TicTacToe = () => {
     const arr = Array.from({ length: 9 }, (_, i) => i);
     const winningCombinations = [
         [0, 1, 2],
@@ -251,4 +251,4 @@ const TikTakToe = () => {
     );
 };
 
-export default TikTakToe;
+export default TicTacToe;
